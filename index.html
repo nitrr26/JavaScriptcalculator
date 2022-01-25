@@ -1,0 +1,47 @@
+<!DOCTYPE html>  
+<html lang = "en">  
+<head>  
+<title> Calculator | JS Project</title>  
+<link rel="stylesheet" href="style.css">
+</head>  
+
+<body>  
+<h1>Calculator</h1>  
+<div class= "forms">  
+<form name = "form" id="formid">  
+       
+  <input id = "calc" type ="text" name = "answer"> <br> <br>  
+    
+  <input class="deco" type = "button" value = "1" onclick = "form.answer.value += '1' ">  
+  <input class="deco" type = "button" value = "2" onclick = "form.answer.value += '2' ">  
+  <input class="deco" type = "button" value = "3" onclick = "form.answer.value += '3' ">  
+   <input class="deco" type = "button" value = "+" onclick = "form.answer.value += '+' ">  
+  <br> <br>  
+    
+  <input class="deco" type = "button" value = "4" onclick = "form.answer.value += '4' ">  
+  <input class="deco" type = "button" value = "5" onclick = "form.answer.value += '5' ">  
+  <input class="deco" type = "button" value = "6" onclick = "form.answer.value += '6' ">  
+  <input class="deco" type = "button" value = "-" onclick = "form.answer.value += '-' ">  
+  <br> <br>  
+    
+  <input class="deco" type = "button" value = "7" onclick = "form.answer.value += '7' ">  
+  <input class="deco" type = "button" value = "8" onclick = "form.answer.value += '8' ">  
+  <input class="deco" type = "button" value = "9" onclick = "form.answer.value += '9' ">  
+  <input class="deco" type = "button" value = "*" onclick = "form.answer.value += '*' ">  
+  <br> <br>  
+    
+    
+  <input class="deco" type = "button" value = "/" onclick = "form.answer.value += '/' ">  
+  <input class="deco" type = "button" value = "0" onclick = "form.answer.value += '0' ">  
+    <input class="deco" type = "button" value = "." onclick = "form.answer.value += '.' ">  
+ 
+  <input class="deco" type = "button" value = "=" onclick = "form.answer.value = eval(form.answer.value) ">  
+  <br>   
+  
+  <input type = "button" value = "Clear All" onclick = "form.answer.value = ' ' " id= "clear" >  
+  <br>   
+    
+</form>  
+</div>  
+</body>  
+</html>  

@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Roboto:wght@100;300;400;500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #deecfc;    
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {  
+    text-align: center;  
+    margin: 3%; 
+    font-weight: bold;
+    color: #fe346e; 
+}  
+  
+#clear{ 
+    background-color: rgb(12, 85, 219);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 120px;
+    border-radius: 3px;
+    font-size: 15px; 
+    font-family: Poppins, sans-serif;
+    margin-top: 30px;
+    margin-left: 2%;
+}  
+ 
+
+.forms{
+   height: 400px;
+   width: 280px;
+   background-color:  #ff347f;
+   border-radius: 2PX;
+}
+
+#formid{
+    margin: 8%;
+}
+
+#calc{
+    height: 35px;
+    width: 225px;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.deco{
+    height: 35px;
+    width: 45px;
+    margin: 0% 2%;
+}
+
